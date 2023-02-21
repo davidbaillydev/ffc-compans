@@ -133,7 +133,7 @@ header {
 }
 header::before {
 	background:#101010;
-	opacity:.7;
+	opacity:.5;
 	content: "";
     height: 100%;
     position: absolute;
