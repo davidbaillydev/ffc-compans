@@ -54,9 +54,9 @@
 						<li class="active" ><a data-scroll=""  href="#header">Acceuil</a></li>
 						<li><a data-scroll href="#story">A Propos</a></li>
 						<li><a data-scroll href="#Extra">menu</a></li>
-						<li><a data-scroll href="#reciption">Spécialité</a></li>
+						<!-- <li><a data-scroll href="#reciption">Spécialité</a></li> -->
 						<li><a data-scroll href="#booking">Réservation</a></li>
-						<li><a data-scroll href="#gallery">galerie</a></li>
+						<!-- <li><a data-scroll href="#gallery">galerie</a></li> -->
 						<li><a data-scroll href="#maps">contact</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
@@ -160,7 +160,7 @@
 						<h3>Reservation</h3>
 						<h2>Commander ou programmer</h2>
 					</div>	
-					<p>Ouvert de <span>7h00</span>  - <span>11h00</span>, tous les jours de la semaine.</p>
+					<p>Ouvert de <span>11h00</span>  - <span>1h00</span>, tous les jours de la semaine.</p>
 				</div>
 			</div>
 			<div class="row">			
@@ -172,13 +172,15 @@
 								<span><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span> -->
 							</div>
 							<div class="col-md-3 col-sm-3  booking-btn  wow bounceInUp"  data-wow-duration="2s">
-								<button data-wow-duration="2s"  data-glf-cuid="a7d33369-e8fe-4e06-a395-79d531770de6" data-glf-ruid="bae50b30-435a-402d-a702-876be5323215">Commander</button>
+								<!-- <button data-wow-duration="2s"  data-glf-cuid="a7d33369-e8fe-4e06-a395-79d531770de6" data-glf-ruid="bae50b30-435a-402d-a702-876be5323215">Commander</button> -->
+								<a href="#booking" class="btn btn-default btn-readmore wow bounceInUp"  data-wow-duration="2s"  class="glf-button" data-glf-cuid="a7d33369-e8fe-4e06-a395-79d531770de6" data-glf-ruid="bae50b30-435a-402d-a702-876be5323215">Commander en ligne</a>
+
 
 						  </div>
 				
 					
 							<div class="col-md-3 col-sm-3  booking-btn  wow bounceInUp"  data-wow-duration="2s">
-								  <button type="submit">Programmer</button>
+								<a href="#booking" class="btn btn-default btn-readmore wow bounceInUp"  data-wow-duration="2s"  class="glf-button" data-glf-cuid="a7d33369-e8fe-4e06-a395-79d531770de6" data-glf-ruid="bae50b30-435a-402d-a702-876be5323215">Programmer</a>
 							</div>
 						</div>
 					</form>	
@@ -190,7 +192,7 @@
 	<!-- =========================
 		Main Menu SECTION
      ========================= -->	
-	<section class="reciption-area" id="reciption">
+	<section class="reciption-area" id="Extra">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -203,18 +205,34 @@
 			<div class="row">
 				<div class="col-md-12 reciption-btn-box">
 					<div class="tab">
-						<div class="col-md-3  col-sm-3 reciption-link-btn">
-							<button class="tablinks link-btn" onclick="openCity(event, 'Buckets')" id="defaultOpen"><img src="images/tab-icon.png" alt="">Nos Buckets</button>
-						</div>		
+						
 						<div class="col-md-3 col-sm-3 reciption-link-btn">						
 							<button class="tablinks link-btn" onclick="openCity(event, 'Burgers')"><img src="images/tab-icon.png" alt=""> Nos Burgers</button>
-						</div>						  
-						<div class="col-md-3 col-sm-3 reciption-link-btn">  
-							<button class="tablinks link-btn" onclick="openCity(event, 'Assiettes')"><img src="images/tab-icon.png" alt="">Nos Assiettes</button>
-						</div>						  
+						</div>	
 						<div class="col-md-3 col-sm-3 reciption-link-btn">					  
 							<button class="tablinks link-btn" onclick="openCity(event, 'Tacos')"><img src="images/tab-icon.png" alt="">Nos Tacos</button>
+						</div>			
+						<div class="col-md-3 col-sm-3 reciption-link-btn">					  
+							<button class="tablinks link-btn" onclick="openCity(event, 'Naan')"><img src="images/tab-icon.png" alt="">Sandwichs </button>
+						</div>				  
+						<div class="col-md-3 col-sm-3 reciption-link-btn">  
+							<button class="tablinks link-btn" onclick="openCity(event, 'rizbox')"><img src="images/tab-icon.png" alt="">Riz Box</button>
 						</div>						  
+						<div class="col-md-3  col-sm-3 reciption-link-btn">
+							<button class="tablinks link-btn" onclick="openCity(event, 'Buckets')" id="defaultOpen"><img src="images/tab-icon.png" alt="">Nos Buckets</button>
+						</div>	
+					
+						<div class="col-md-3 col-sm-3 reciption-link-btn">					  
+							<button class="tablinks link-btn" onclick="openCity(event, 'Tex')"><img src="images/tab-icon.png" alt="">Nos Tex Mex </button>
+						</div>	
+								
+						<div class="col-md-3 col-sm-3 reciption-link-btn">					  
+							<button class="tablinks link-btn" onclick="openCity(event, 'kid')"><img src="images/tab-icon.png" alt="">Enfant & Salades </button>
+						</div>	
+
+						<div class="col-md-3 col-sm-3 reciption-link-btn">					  
+							<button class="tablinks link-btn" onclick="openCity(event, 'drink')"><img src="images/tab-icon.png" alt=""> Boissons & Desserts </button>
+						</div>
 					</div>
 
 			
@@ -224,7 +242,7 @@
 					<div id="Buckets" class="tabcontent">
 						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
 							<div class="col-md-4  col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/bucket/23.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8  col-sm-8">
 								<div class="reciption-text">
@@ -238,7 +256,7 @@
 
 						<div class="col-md-6  col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2s">
 							<div class="col-md-4 col-sm-4  reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/bucket/24.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -252,7 +270,7 @@
 
 						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
 							<div class="col-md-4 col-sm-4  reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/bucket/25.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -264,53 +282,15 @@
 							</div>						
 						</div>
 
-						<div class="col-md-6 col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
-							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
-							</div>
-							<div class="col-md-8 col-sm-8 ">
-								<div class="reciption-text">
-									<h4>Chicken Dish</h4>
-									<span>7€</span>
-								</div>	
-								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
-								<a href="#" class="btn btn-default reciption-btn">Commander</a>
-							</div>						
-						</div>
+					
 
-						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
-							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
-							</div>
-							<div class="col-md-8 col-sm-8">
-								<div class="reciption-text">
-									<h4>Chicken Dish</h4>
-									<span>7€</span>
-								</div>	
-								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
-								<a href="#" class="btn btn-default reciption-btn">Commander</a>
-							</div>						
-						</div>
-
-						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
-							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
-							</div>
-							<div class="col-md-8 col-sm-8">
-								<div class="reciption-text">
-									<h4>Chicken Dish</h4>
-									<span>7€</span>
-								</div>	
-								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
-								<a href="#" class="btn btn-default reciption-btn">Commander</a>
-							</div>						
-						</div>
+					
 					</div> <!--./Food-->
 
 					<div id="Burgers" class="tabcontent">
 						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
 							<div class="col-md-4  col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/burger/1.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8  col-sm-8">
 								<div class="reciption-text">
@@ -324,7 +304,7 @@
 
 						<div class="col-md-6  col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2s">
 							<div class="col-md-4 col-sm-4  reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/burger/2.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -338,7 +318,7 @@
 
 						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
 							<div class="col-md-4 col-sm-4  reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/burger/3.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -352,7 +332,7 @@
 
 						<div class="col-md-6 col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
 							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/burger/4.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8 ">
 								<div class="reciption-text">
@@ -366,7 +346,7 @@
 
 						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
 							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/burger/5.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -380,7 +360,7 @@
 
 						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
 							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/burger/6.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -393,10 +373,10 @@
 						</div>					
 					</div> <!--./Drink-->
 
-					<div id="Assiettes" class="tabcontent">
+					<div id="rizbox" class="tabcontent">
 						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
 							<div class="col-md-4  col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/riz/Sans titre-19.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8  col-sm-8">
 								<div class="reciption-text">
@@ -410,7 +390,7 @@
 
 						<div class="col-md-6  col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2s">
 							<div class="col-md-4 col-sm-4  reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/riz/Sans titre-19.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -424,7 +404,7 @@
 
 						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
 							<div class="col-md-4 col-sm-4  reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/riz/Sans titre-19.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -438,7 +418,7 @@
 
 						<div class="col-md-6 col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
 							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/riz/Sans titre-19.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8 ">
 								<div class="reciption-text">
@@ -452,7 +432,7 @@
 
 						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
 							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/riz/Sans titre-19.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -466,7 +446,7 @@
 
 						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
 							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/riz/Sans titre-19.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -482,7 +462,7 @@
 					<div id="Tacos" class="tabcontent">
 						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
 							<div class="col-md-4  col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/tacos/10.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8  col-sm-8">
 								<div class="reciption-text">
@@ -496,7 +476,7 @@
 
 						<div class="col-md-6  col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2s">
 							<div class="col-md-4 col-sm-4  reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/tacos/11.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -510,7 +490,7 @@
 
 						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
 							<div class="col-md-4 col-sm-4  reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/tacos/12.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -524,7 +504,7 @@
 
 						<div class="col-md-6 col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
 							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/tacos/13.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8 ">
 								<div class="reciption-text">
@@ -538,7 +518,7 @@
 
 						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
 							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/tacos/14.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -552,7 +532,7 @@
 
 						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
 							<div class="col-md-4 col-sm-4 reciption-img">
-								<img src="images/food1.jpg" alt="" class="img-responsive">
+								<img src="images/gallery/tacos/15.png" alt="" class="img-responsive">
 							</div>
 							<div class="col-md-8 col-sm-8">
 								<div class="reciption-text">
@@ -563,7 +543,317 @@
 								<a href="#" class="btn btn-default reciption-btn">Commander</a>
 							</div>						
 						</div>					
-					</div> <!--./Cocktail-->
+					</div> <!--./sandwich-->
+					<div id="Naan" class="tabcontent">
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4  col-sm-4 reciption-img">
+								<img src="images/gallery/kebab/16.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8  col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6  col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4 col-sm-4  reciption-img">
+								<img src="images/gallery/kebab/17.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
+							<div class="col-md-4 col-sm-4  reciption-img">
+								<img src="images/gallery/kebab/18.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6 col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
+							<div class="col-md-4 col-sm-4 reciption-img">
+								<img src="images/gallery/kebab/19.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8 ">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
+							<div class="col-md-4 col-sm-4 reciption-img">
+								<img src="images/gallery/kebab/20.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
+							<div class="col-md-4 col-sm-4 reciption-img">
+								<img src="images/gallery/kebab/21.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>			
+						
+						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
+							<div class="col-md-4 col-sm-4 reciption-img">
+								<img src="images/gallery/kebab/22.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>	
+					</div> <!--./sandwich-->
+
+					<div id="Tex" class="tabcontent">
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4  col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/28.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8  col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6  col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4 col-sm-4  reciption-img">
+								<img src="images/gallery/texmex//29.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
+							<div class="col-md-4 col-sm-4  reciption-img">
+								<img src="images/gallery/texmex/30.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6 col-sm-6  reciption-box  wow bounceInUp"  data-wow-duration="2.2s">
+							<div class="col-md-4 col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/31.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8 ">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
+							<div class="col-md-4 col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/32.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
+							<div class="col-md-4 col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/33.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>			
+						
+						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
+							<div class="col-md-4 col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/34.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>	
+
+						<div class="col-md-6  col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2.4s">
+							<div class="col-md-4 col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/35.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>	
+					</div> <!--./texmex-->
+
+					<div id="kid" class="tabcontent">
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4  col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/salade.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8  col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4  col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/Sans titre-19.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8  col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+				
+					
+
+					
+					</div> <!--./Food-->
+					
+					<div id="drink" class="tabcontent">
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4  col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/drink.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8  col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4  col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/drink.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8  col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4  col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/drink.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8  col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+						<div class="col-md-6 col-sm-6 reciption-box  wow bounceInUp"  data-wow-duration="2s">
+							<div class="col-md-4  col-sm-4 reciption-img">
+								<img src="images/gallery/texmex/drink.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-md-8  col-sm-8">
+								<div class="reciption-text">
+									<h4>Chicken Dish</h4>
+									<span>7€</span>
+								</div>	
+								<p>18 Wings Ou 12 Tenders Ou 6 Tenders + 10 Wings Menu - 2 Boisson 33cl + 2 Frites.</p>
+								<a href="#" class="btn btn-default reciption-btn">Commander</a>
+							</div>						
+						</div>
+
+			
+
+					
+					</div> <!--./drink-->
 				</div>
 			</div>
 		</div>
@@ -592,7 +882,7 @@
 					<div class="gallery-text-box   wow bounceInUp"  data-wow-duration="2s">
 						<div class="gallery-text">
 							<h3>Suivez-Nous</h3>
-							<h2>sur <a href="#">Facebook</a></h2>						
+							<h2>sur <a href="https://www.facebook.com/FFCCHICKEN31/" target="_blank">Facebook</a></h2>						
 						</div>
 					</div>
 				</div>
@@ -663,7 +953,7 @@
                 </div>				
 			</div>
 			
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<div class="subtitle">
 						<h3>S'inscrire à la lettre d'information</h3>
@@ -677,7 +967,7 @@
 						</div>	
 					</form>
  				</div>
- 			</div>			
+ 			</div>			 -->
 		</div>
 	</section>
 
@@ -689,9 +979,12 @@
 			<div class="row">
 				<div class="col-md-12  col-sm-12  maps-box">
 					<div id="cc_map"> 
-						<div id="map-canvas"></div> 
+						<!-- <div id="map-canvas"></div>  -->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6100.171956229158!2d1.4271158536236959!3d43.60877682133815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebb19d2998679%3A0x9a104a1d5a48bdc7!2sFFC%20CHICKEN!5e0!3m2!1sfr!2sfr!4v1676938464553!5m2!1sfr!2sfr" width="1920" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div> 
 				</div>
+
+
 				<div class="container-fluid">
 					<div class="row">
 						<div class="map-text-full-box  wow slideInLeft" data-wow-duration="2s">
